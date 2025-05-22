@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+  /* border: 0.2px solid rgba(255, 255, 255, 0.171); */
+}
+
+:root {
+  --logo-red: #d42129;
+  --logo-red-o40: #d4212a40;
+  --logo-black: #231f20;
+  --logo-white: #ffffff;
+}
+
+html {
+  background-color: black;
+  color: white;
+}
+
+.logo-family {
+  font-family: "Octin Sports", sans-serif;
+}
+
+.logo-second-family {
+  font-family: "Courier New", monospace;
+}
