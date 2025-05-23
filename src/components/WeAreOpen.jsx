@@ -1,5 +1,5 @@
-import openSvg1 from "../../assets/opensvg1.svg";
-import openSvg2 from "../../assets/opensvg2.svg";
+import openSvg1 from "../assets/opensvg1.svg";
+import openSvg2 from "../assets/opensvg2.svg";
 
 function WeAreOpen() {
   return (

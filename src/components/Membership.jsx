@@ -1,6 +1,6 @@
-import vipMember from "../../assets/vipmember.svg";
-import coupleMember from "../../assets/couplemember.svg";
-import soloMember from "../../assets/solomember.svg";
+import vipMember from "../assets/vipmember.svg";
+import coupleMember from "../assets/couplemember.svg";
+import soloMember from "../assets/solomember.svg";
 
 function Membership() {
   return (

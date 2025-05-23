@@ -1,4 +1,4 @@
-import ourVibeImg from "../../assets/ourvibeimg.png";
+import ourVibeImg from "../assets/ourvibeimg.png";
 
 function OurVibe() {
   return (
