@@ -1,4 +1,12 @@
 @import "tailwindcss";
+@font-face {
+  font-family: 'Octin Sports';
+  src: url('../assets/fonts/OctinSports-Regular.woff2') format('woff2'),
+       url('../assets/fonts/OctinSports-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 * {
   box-sizing: border-box;

@@ -2,22 +2,27 @@ import heroImg from "../assets/heroimg.png";
 
 function Hero() {
   return (
-    <div className="flex items-center justify-center gap-25">
-      <div>
-        <p className="text-5xl logo-family leading-15 text-white">
-          Fitness is not a <br />
-          <span className="text-[var(--logo-red)]">Destination</span>
+    <div className="flex flex-col items-center justify-center lg:flex-row lg:gap-20">
+      <div className="">
+        <p className="text-3xl text-center leading-snug lg:text-5xl logo-family lg:leading-[4rem] text-white">
+          Fitness <br className="lg:hidden" />
+          <span className="text-[var(--logo-red)] lg:text-white">
+            is not a
+          </span>{" "}
           <br />
-          its a way of life. <br />
-          <span className="text-[var(--logo-red)]">Strong Today</span> <br />
-          Stronger Tomorrow
+          <span className="lg:text-[var(--logo-red)]">Destination</span> <br />
+          <span className="text-[var(--logo-red)] lg:text-white">
+            it's a way of life.
+          </span>
         </p>
-        <button className="font-bold text-xl bg-[var(--logo-red)] mt-12 p-4 rounded-3xl logo-second-family">
-          Join the Movement
-        </button>
+        <div className="hidden lg:block text-center mt-2 lg:text-5xl logo-family lg:leading-[4rem] text-white">
+          <span className="text-[var(--logo-red)]">Strong Today</span> <br />
+          <span>Stronger Tomorrow</span>
+        </div>
       </div>
+
       <div>
-        <img src={heroImg} alt="" />
+        <img className="lg:pt-10" src={heroImg} alt="" />
       </div>
     </div>
   );
