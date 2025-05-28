@@ -32,8 +32,8 @@ function Footer() {
           </div>
         </div>
 
-        <div className="logo-family bg-black p-10">
-          <p className="text-[var(--logo-red)] text-3xl">Personal Coaching</p>
+        <div className="logo-family p-10">
+          <p className="leading-15 text-3xl">Personal Coaching</p>
           <ul className="text-base">
             <li>*Meal Plan</li>
             <li>*Progress Tracking</li>
