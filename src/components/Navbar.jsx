@@ -10,7 +10,7 @@ function Navbar() {
       <img className="w-30 lg:inline" src={logo} alt="Logo" />
       {/* <img className="lg:hidden" src={smlogo} alt="Logo" /> */}
 
-      <img className="lg:hidden" src={burger} alt="Logo" />
+      {/* <img className="lg:hidden" src={burger} alt="Logo" /> */}
 
       <div className="hidden lg:flex gap-10 items-center">
         <Link className="hover:text-red-500" to={"/membership"}>
