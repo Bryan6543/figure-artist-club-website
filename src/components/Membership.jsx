@@ -4,7 +4,7 @@ import soloMember from "../assets/solomember.svg";
 
 function Membership() {
   return (
-    <div className="logo-family  mb-20">
+    <div id="membership_section" className="logo-family  mb-20">
       <div className="relative flex justify-center h-30 mb-20">
         <h1 className="absolute bottom-0 text-9xl z-10 opacity-5">
           Membership

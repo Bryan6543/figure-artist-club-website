@@ -7,9 +7,9 @@
   font-style: normal;
 }
 
-
 * {
   box-sizing: border-box;
+  scroll-behavior: smooth;
   /* border: 0.2px solid rgba(255, 255, 255, 0.171); */
 }
 
@@ -23,6 +23,7 @@
 html {
   background-color: black;
   color: white;
+  scroll-behavior: smooth;
 }
 
 .logo-family {

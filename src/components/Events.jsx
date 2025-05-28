@@ -6,7 +6,7 @@ import event4 from "../assets/cricket.png";
 
 function Events() {
   return (
-    <div className="flex flex-col justify-center pb-20">
+    <div id="events_section" className="flex flex-col justify-center pb-20">
       <div className="relative flex justify-center h-30 mb-20 logo-family">
         <h1 className="absolute bottom-0 text-9xl z-10 opacity-5">
           Join Our Events
