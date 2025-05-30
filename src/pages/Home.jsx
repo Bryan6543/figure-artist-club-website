@@ -9,6 +9,7 @@ import Events from "../components/Events.jsx";
 import BodyTransformation from "../components/BodyTransformation.jsx";
 import Footer from "../components/Footer.jsx";
 import FadeInSection from "../components/FadeInSection.jsx";
+import MeetCoach from "../components/MeetCoach.jsx";
 
 function Home() {
   return (
@@ -18,10 +19,11 @@ function Home() {
       <FadeInSection><Hero /></FadeInSection>
       <FadeInSection delay={0.2}><OurVibe /></FadeInSection>
       <FadeInSection delay={0.2}><WeAreOpen /></FadeInSection>
-      <FadeInSection delay={0.2}><MeetTeam /></FadeInSection>
-      <FadeInSection delay={0.2}><Membership /></FadeInSection>
-      <FadeInSection delay={0.2}><Events /></FadeInSection>
+      <FadeInSection delay={0.2}><MeetCoach/></FadeInSection>
+      {/* <FadeInSection delay={0.2}><MeetTeam /></FadeInSection> */}
       <FadeInSection delay={0.2}><BodyTransformation /></FadeInSection>
+      <FadeInSection delay={0.2}><Membership /></FadeInSection>
+      <FadeInSection delay={0.2}><Events /></FadeInSection> 
       <Footer />
     </>
   );

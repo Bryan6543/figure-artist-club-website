@@ -58,13 +58,13 @@ function Footer() {
 
       {/* <hr className="mt-5 mb-2" /> */}
 
-      <div className="flex justify-center items-center mb-2">
+      {/* <div className="flex justify-center items-center mb-2">
         <p>
           To Support the developer or Hire for web
           dev. fnirmal802@gmail.com or{" "}
           <span className="text-amber-300"> Click Link! </span>
         </p>
-      </div>
+      </div> */}
     </div>
   );
 }

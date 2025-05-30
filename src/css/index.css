@@ -10,7 +10,7 @@
 * {
   box-sizing: border-box;
   scroll-behavior: smooth;
-  /* border: 0.2px solid rgba(255, 255, 255, 0.171); */
+  border: 0.2px rgba(255, 255, 255, 0.171);
 }
 
 :root {
