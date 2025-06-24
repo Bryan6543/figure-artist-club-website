@@ -22,7 +22,7 @@ function Home() {
       <FadeInSection delay={0.2}><MeetCoach/></FadeInSection>
       {/* <FadeInSection delay={0.2}><MeetTeam /></FadeInSection> */}
       <FadeInSection delay={0.2}><BodyTransformation /></FadeInSection>
-      <FadeInSection delay={0.2}><Membership /></FadeInSection>
+      {/* <FadeInSection delay={0.2}><Membership /></FadeInSection> */}
       <FadeInSection delay={0.2}><Events /></FadeInSection> 
       <Footer />
     </>
