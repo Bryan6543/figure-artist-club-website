@@ -1,20 +1,20 @@
 import CoachIMG from "../assets/chinthakasoloass.png";
 import { Link } from "react-router-dom";
+import SectionHeading from "./SectionHeading";
+import SectionWrapper from "./SectionWrapper";
 
 function MeetCoach() {
   return (
-    <div className="logo-family  mb-20">
-      <div className="relative flex justify-center h-30 mb-20">
-        <h1 className="absolute bottom-0 text-9xl z-10 opacity-5">
-          Coach & Founder
-        </h1>
-        <h2 className="absolute bottom-3 text-6xl">Meet the Coach/Founder</h2>
-      </div>
+    <SectionWrapper className="">
+      <SectionHeading
+        fadeText="Coach & Founder"
+        visibleText="Meet the Coach/Founder"
+      />
 
-      <div className="flex logo-second-family justify-center items-center gap-15">
-        <div className="flex flex-col w-2xl gap-7.5">
-          <p className="leading-10">
-            <span className="text-3xl font-bold">
+      <div className="text-center lg:text-left p-2 lg:p-0 flex flex-col-reverse lg:flex-row logo-second-family justify-center items-center gap-15">
+        <div className="flex flex-col-reverse lg:flex-col lg:w-2xl lg:gap-7.5 gap-10">
+          <p className=" lg:leading-10">
+            <span className="text-base lg:text-3xl font-bold">
               Meet Coach/Founder Chinthaka{" "}
             </span>
             <br /> The driving force behind your transformation. With over 10
@@ -22,8 +22,8 @@ function MeetCoach() {
             dedicated his life to helping others achieve their full physical and
             mental potential.
           </p>
-          <p className="leading-10">
-            <span className="text-3xl font-bold"> Train with Purpose </span>
+          <p className="lg:leading-10">
+            <span className="lg:text-3xl font-bold"> Train with Purpose </span>
             <br /> "Fitness isn't just a goal. It's a lifestyle, a mindset, and
             a battle worth fighting every day." - Coach Chinthaka
           </p>
@@ -38,10 +38,10 @@ function MeetCoach() {
         </div>
 
         <div>
-          <img src={CoachIMG} alt="" />
+          <img className="w-40" src={CoachIMG} alt="" />
         </div>
       </div>
-    </div>
+    </SectionWrapper>
   );
 }
 

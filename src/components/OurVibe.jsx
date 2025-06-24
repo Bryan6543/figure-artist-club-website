@@ -1,22 +1,16 @@
 import ourVibeImg from "../assets/ourvibeimg.png";
 import topleftsvg from "../assets/ourvibetoprightsvg.svg";
+import SectionHeading from "./SectionHeading";
+import SectionWrapper from "./SectionWrapper";
 
 function OurVibe() {
   return (
-    <div className="pt-12.5 pb-12.5 lg:pt-20 lg:pb-20 logo-second-family">
-      
-      <div className="lg:hidden flex justify-end">
+    <SectionWrapper className="logo-second-family">
+      <div className="lg:hidden pt-10 pb-10 flex justify-end">
         <img src={topleftsvg} alt="" />
       </div>
 
-      <div className="relative logo-family flex justify-center h-15 lg:h-30 mb-7.5 lg:mb-20">
-        <h1 className="absolute bottom-0 text-6xl lg:text-9xl opacity-5">
-          Our Vibe
-        </h1>
-        <h2 className="absolute bottom-1 lg:bottom-3 text-3xl lg:text-6xl">
-          Our Vibe
-        </h2>
-      </div>
+      <SectionHeading fadeText="Our Vibe" visibleText="Our Vibe" />
 
       <div className="text-center lg:text-left flex flex-col lg:flex-row justify-center align-center gap-18">
         <div className="hidden lg:inline">
@@ -37,7 +31,7 @@ function OurVibe() {
           </ul>
         </div>
       </div>
-    </div>
+    </SectionWrapper>
   );
 }
 

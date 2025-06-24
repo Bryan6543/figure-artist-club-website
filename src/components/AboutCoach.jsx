@@ -3,6 +3,7 @@ import CoachIMG from "../assets/chinthakasoloass.png";
 function AboutCoach() {
   return (
     <div className="flex flex-col items-center gap-10 mb-20 logo-family">
+      
       <div className="relative flex justify-center h-15 lg:h-30 mb-7.5 lg:mb-20 mt-30">
         <h1 className="absolute bottom-0 text-6xl lg:text-9xl opacity-5">
           Coach
@@ -16,6 +17,7 @@ function AboutCoach() {
         <div className="flex justify-center">
           <h2 className="text-3xl lg:text-6xl">About the Coach</h2>
         </div>
+        
         <div className="flex items-center gap-10 logo-second-family text-2xl leading-10">
           <div className="flex flex-col gap-10 w-3xl">
             <div>

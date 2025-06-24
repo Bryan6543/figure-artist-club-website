@@ -11,8 +11,8 @@ function Footer() {
     <div>
       {/* <hr className="mb-5" /> */}
 
-      <div className="pt-5 pb-5 mb-2 bg-[var(--logo-black)] flex gap-25 items-center justify-center">
-        <div className="flex flex-col gap-5">
+      <div className="pt-5 pb-5 mb-2 bg-[var(--logo-black)] flex flex-col-reverse lg:flex-row gap-3 lg:gap-25 items-center justify-center">
+        <div className="flex flex-col gap-5 pb-10 lg:pb-0">
           <div>
             <img src={logofooter} alt="logofootersvg" />
           </div>
@@ -20,7 +20,7 @@ function Footer() {
             <div>
               <p>
                 Mavittara Junction Piliyandala <br /> figureartist@gmail.com
-                <br /> +94 7646 35985
+                <br /> +94 71764 0479
               </p>
             </div>
             <div className="flex gap-5">
@@ -32,19 +32,19 @@ function Footer() {
           </div>
         </div>
 
-        <div className="logo-family p-10">
-          <p className="leading-15 text-3xl">Personal Coaching</p>
-          <ul className="text-base">
+        <div className="logo-family p-4 lg:p-10">
+          <p className="leading-15 text-2xl lg:text-3xl">Personal Coaching</p>
+          <ul className="text-base leading-7">
             <li>*Meal Plan</li>
             <li>*Progress Tracking</li>
             <li>*Personal Assistance</li>
             <li>And More</li>
           </ul>
-          <p className="text-xl">for More information please contact us </p>
+          <p className="text-xl">for More information contact us </p>
         </div>
 
         <div>
-          <img src={dumbell} alt="logofootersvg" />
+          <img className="hidden lg:block" src={dumbell} alt="logofootersvg" />
         </div>
         {/* <div className="logo-family">
           About Us <br />

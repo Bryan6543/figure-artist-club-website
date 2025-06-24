@@ -1,17 +1,19 @@
 import BodyTransBanner from "../assets/BodyTransformationImg.png";
+import SectionHeading from "./SectionHeading";
+import SectionWrapper from "./SectionWrapper";
 
 function BodyTransformation() {
   return (
-    <div className="pb-20">
-      <div className="relative flex justify-center h-30 mb-20 logo-family">
-        <h1 className="absolute bottom-0 text-9xl z-10 opacity-5">
-          Body Transformation
-        </h1>
-        <h2 className="absolute bottom-3 text-6xl">Body Transformation</h2>
+    <SectionWrapper className="">
+      <SectionHeading
+        fadeText="Transformation"
+        visibleText="Body Transformation"
+      />
+
+      <div className="flex justify-center p-2 lg:p-0">
+        <img src={BodyTransBanner} alt="" />
       </div>
-      <div className="flex justify-center">
-      <img src={BodyTransBanner} alt="" /></div>
-    </div>
+    </SectionWrapper>
   );
 }
 

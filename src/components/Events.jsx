@@ -3,41 +3,40 @@ import event1 from "../assets/mrstrongest2024.png";
 import event2 from "../assets/events2024.png";
 import event3 from "../assets/mrstrongest2023.png";
 import event4 from "../assets/cricket.png";
+import SectionHeading from "./SectionHeading";
+import SectionWrapper from "./SectionWrapper";
 
 function Events() {
   return (
-    <div id="events_section" className="flex flex-col justify-center pb-20">
-      <div className="relative flex justify-center h-30 mb-20 logo-family">
-        <h1 className="absolute bottom-0 text-9xl z-10 opacity-5">
-          Join Our Events
-        </h1>
-        <h2 className="absolute bottom-3 text-6xl">Join Our Events</h2>
-      </div>
+    <SectionWrapper id="events_section" classname="">
+      <SectionHeading fadeText="Our Events" visibleText="Join Our Events" />
 
-      <div className="flex justify-center logo-second-family gap-10 pb-6">
-        <div className="flex flex-col w-125 gap-20 pt-15">
-          <p className="leading-15 text-4xl">
-            Mr & Ms Strongest <hr /> <br /> Cricket Tournaments<hr /> <br /> Outings<hr />
+      <div className="flex justify-center logo-second-family lg:gap-10 pb-6 p-2 ">
+        <div className="flex flex-col w-125 gap-10 lg:gap-15 lg:pt-15">
+          <p className="text-center lg:text-left font-bold leading-3 lg:leading-8 lg:text-4xl">
+            Mr & Ms Strongest <hr /> <br /> Cricket Tournaments
+            <hr /> <br /> Outings
+            <hr />
           </p>
-          <p className="leading-10 text-2xl">
-            Compete. Connect. Conquer. <br />
+          <p className="text-center lg:text-left leading-8 lg:leading-10 text-base lg:text-2xl">
+            Compete. Connect. Conquer. <br className="hidden lg:block" />
             <br /> From Mr. & Ms. Strongest to thrilling cricket tournaments and
             unforgettable trips — we're more than just a gym.
           </p>
         </div>
 
-        <img src={eventBanner} alt="" />
+        <img className="hidden lg:block" src={eventBanner} alt="" />
       </div>
 
       <div className="flex justify-center">
-        <div className="grid grid-cols-2 gap-3">
+        <div className="grid grid-cols-2 gap-3 p-5">
           <img src={event1} alt="" />
           <img src={event2} alt="" />
           <img src={event3} alt="" />
           <img src={event4} alt="" />
         </div>
       </div>
-    </div>
+    </SectionWrapper>
   );
 }
 
