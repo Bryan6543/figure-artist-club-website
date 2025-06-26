@@ -1,7 +1,7 @@
-import HeaderMsg from "../components/HeaderMsg.jsx";
+// import HeaderMsg from "../components/HeaderMsg.jsx";
 import Navbar from "../components/Navbar.jsx";
 import Hero from "../components/Hero.jsx";
-import MeetTeam from "../components/MeetTeam.jsx";
+// import MeetTeam from "../components/MeetTeam.jsx";
 import Membership from "../components/Membership.jsx";
 import OurVibe from "../components/OurVibe.jsx";
 import WeAreOpen from "../components/WeAreOpen.jsx";
@@ -22,7 +22,7 @@ function Home() {
       <FadeInSection delay={0.2}><MeetCoach/></FadeInSection>
       {/* <FadeInSection delay={0.2}><MeetTeam /></FadeInSection> */}
       <FadeInSection delay={0.2}><BodyTransformation /></FadeInSection>
-      {/* <FadeInSection delay={0.2}><Membership /></FadeInSection> */}
+      <FadeInSection delay={0.2}><Membership /></FadeInSection>
       <FadeInSection delay={0.2}><Events /></FadeInSection> 
       <Footer />
     </>

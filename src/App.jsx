@@ -5,7 +5,6 @@ import Coach from "./pages/Coach.jsx";
 function App() {
   return (
     <>
-      
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/coach" element={<Coach/>} />
