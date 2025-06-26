@@ -11,6 +11,7 @@ function BodyTransformation() {
       />
 
       <div className="flex justify-center p-2 lg:p-0">
+        <div className="backgroun bg-black z-10"></div>
         <img src={BodyTransBanner} alt="" />
       </div>
     </SectionWrapper>

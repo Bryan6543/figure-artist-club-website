@@ -5,7 +5,7 @@ function SectionHeading({ visibleText, fadeText }) {
         {fadeText}
       </h1>
       <h2
-        className="absolute bottom-0 lg:bottom-4 text-3xl lg:text-5xl"
+        className="text-[var(--logo-white)] absolute bottom-0 lg:bottom-4 text-3xl lg:text-5xl"
       >
         {visibleText}
       </h2>

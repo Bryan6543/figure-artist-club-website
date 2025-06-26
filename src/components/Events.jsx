@@ -8,13 +8,14 @@ import SectionWrapper from "./SectionWrapper";
 
 function Events() {
   return (
-    <SectionWrapper id="events_section" classname="">
+    <SectionWrapper >
+      <div id="events_section"></div>
       <SectionHeading fadeText="Our Events" visibleText="Join Our Events" />
 
       <div className="flex justify-center logo-second-family lg:gap-10 pb-6 p-2 ">
-        <div className="flex flex-col w-125 gap-10 lg:gap-15 lg:pt-15">
-          <p className="text-center lg:text-left font-bold leading-3 lg:leading-8 lg:text-4xl">
-            Mr & Ms Strongest <hr /> <br /> Cricket Tournaments
+        <div className="flex flex-col items-center w-125 gap-10 lg:gap-15 lg:pt-15">
+          <p className="w-50 lg:w-120 text-center lg:text-left font-bold leading-3 lg:leading-8 lg:text-4xl">
+            Mr & Ms Strongest <hr /> <br /> Mr. and Miss. Figure Artist <hr /> <br /> Cricket Tournaments
             <hr /> <br /> Outings
             <hr />
           </p>

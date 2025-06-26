@@ -1,4 +1,4 @@
-import CoachIMG from "../assets/chinthakasoloass.png";
+import CoachIMG from "../assets/coach1.png";
 import { Link } from "react-router-dom";
 import SectionHeading from "./SectionHeading";
 import SectionWrapper from "./SectionWrapper";
@@ -28,17 +28,23 @@ function MeetCoach() {
             a battle worth fighting every day." - Coach Chinthaka
           </p>
           <div>
-            <a
+            <Link
+              className="font-bold transition duration-300 ease-in-out hover:cursor-pointer hover:bg-white hover:text-black rounded-lg p-3 bg-[var(--logo-red)]"
+              to="#"
+            >
+              More About the Coach
+            </Link>
+            {/* <a
               href="/coach"
               className="font-bold transition duration-300 ease-in-out hover:cursor-pointer hover:bg-white hover:text-black rounded-lg p-3 bg-[var(--logo-red)]"
             >
               More About the Coach
-            </a>
+            </a> */}
           </div>
         </div>
 
         <div>
-          <img className="w-40" src={CoachIMG} alt="" />
+          <img className="mt-[-100px]" src={CoachIMG} alt="" />
         </div>
       </div>
     </SectionWrapper>

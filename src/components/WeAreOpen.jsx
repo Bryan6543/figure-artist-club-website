@@ -15,7 +15,7 @@ function WeAreOpen() {
       </div>
 
       <div className="flex flex-col items-center justify-center pt-20 lg:pb-20">
-        <div className="text-3xl pb-5 lg:pb-8 lg:text-5xl">
+        <div className="text-[var(--logo-white)] text-3xl pb-5 lg:pb-8 lg:text-5xl">
           <h1>We are Open</h1>
         </div>
         <div className="flex gap-3 flex-col lg:flex-row lg:gap-20">

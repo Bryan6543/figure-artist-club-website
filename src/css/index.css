@@ -18,12 +18,14 @@
   --logo-red-o40: #d4212a40;
   --logo-black: #231f20;
   --logo-white: #ffffff;
+  --text-color: #C5C5C5;
 }
 
 html {
   background-color: black;
   color: white;
   scroll-behavior: smooth;
+  color: var(--text-color);
 }
 
 .logo-family {
@@ -31,5 +33,7 @@ html {
 }
 
 .logo-second-family {
-  font-family: "Courier New", monospace;
+  /* font-family: "Courier New", monospace; */
+    font-family: "Abhaya Libre SemiBold";
+
 }
