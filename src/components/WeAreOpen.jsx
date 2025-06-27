@@ -34,13 +34,13 @@ function WeAreOpen() {
           <div className="flex flex-col items-center">
             <p className="text-base lg:text-2xl">Sundays</p>
             <p className="text-base lg:text-xl text-[var(--logo-red)]">
-              5:30am - 12:00pm
+              .
             </p>
             <p className="text-base lg:text-xl text-[var(--logo-red)]">
-              ----
+              9:00am - 5:00pm
             </p>
             <p className="text-base lg:text-xl text-[var(--logo-red)]">
-              3:00pm - 10:00pm
+              .
             </p>
           </div>
           <div className="flex flex-col items-center">
